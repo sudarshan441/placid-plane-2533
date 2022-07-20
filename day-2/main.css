@@ -1,0 +1,134 @@
+#navcontainer{
+    background-color: #EAEAEA;
+    height: 30px;
+    margin-top: -7px;
+}
+#topnav .bullet::after{
+    display: inline-block;
+    content: '';
+    -webkit-border-radius: 0.375rem;
+    border-radius: 0.375rem;
+    height: 0.4rem;
+    width: 0.4rem;
+    margin-right: 0.75rem;
+    margin-left: 00.75rem;
+    
+    background-color: #bdbdbd;
+}
+#topnav{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#down{
+    height: 8px;
+    width: 10px;
+}
+
+#nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin: auto;
+    
+    height: 35px;
+    }
+#nav>div>div{
+    display: flex;
+    
+}
+#loc{
+    margin-left:-80px;
+}
+.align{
+display: flex;
+justify-items: center;
+  }
+.border{
+    width: 400px;
+    display: flex;
+    border-radius: 5px;
+    height: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+    }
+.border>input{
+    margin-left: 10px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    width: 365px;
+    height: 20px;
+    border: none;
+    
+}
+.border>img{
+    height: 20px;
+    margin-top: 5px;
+}
+
+.align>.logo{
+    height: 20px;
+}
+.align>a{
+margin-left: 5px;
+margin-top: 1px;
+}
+#container{
+    padding: 35px;
+    position: sticky;
+    top:0px;
+    background-color: white;
+}
+.align{
+    margin-top: 15px;
+}
+#select{
+    border: none;
+    background-color: #EAEAEA;
+}
+#topnav>div>img{
+    margin-top: 6px;
+    margin-left: 12px;
+    width: 14px;
+    height: 14px;
+}
+
+
+#selec {
+    width: 90px;
+    margin: 10px;
+    background-color: #EAEAEA;
+    border: none;
+}
+/* #selec:focus {
+    min-width: 150px;
+    width: auto;
+}    */
+.border>input:hover{
+    margin-left: 20px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    width: 340px;
+    height: 20px;
+    border: none;
+}
+
+#topnav>div>a{
+    font: 13px lato sans-serif;
+    
+}
+.smal{
+    text-transform: uppercase;
+    font: 10px lato sans-serif;
+}
+.texttype{
+    font: 12px lato sans-serif;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+#crauser>img{
+width: 100%;
+}
