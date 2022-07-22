@@ -1,3 +1,8 @@
+
+*{
+    font-family: sans-serif;
+}
+
 #navcontainer{
     background-color: #EAEAEA;
     height: 30px;
@@ -16,7 +21,8 @@
     background-color: #bdbdbd;
 }
 #topnav{
-    width: 85%;
+    width: 80%;
+
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -28,7 +34,8 @@
 }
 
 #nav{
-    width: 90%;
+
+    width: 85%;
     display: flex;
     justify-content: space-between;
     justify-items: center;
@@ -52,6 +59,7 @@ justify-items: center;
     display: flex;
     border-radius: 5px;
     height: auto;
+    background-color: #f8f8f8;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     
     }
@@ -62,8 +70,15 @@ justify-items: center;
     width: 365px;
     height: 20px;
     border: none;
+    border: 0px solid;
+    background-color: #f8f8f8;
+    outline: none;
     
 }
+
+    
+}
+
 .border>img{
     height: 20px;
     margin-top: 5px;
@@ -81,6 +96,9 @@ margin-top: 1px;
     position: sticky;
     top:0px;
     background-color: white;
+
+    z-index: 100;
+
 }
 .align{
     margin-top: 15px;
@@ -128,9 +146,264 @@ margin-top: 1px;
     font: 12px lato sans-serif;
 }
 
+#cato>div>img{
+    transition: transform .3s
+}
+#cato>div>img:hover{
+    transform: scale(1.1);
+
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+
 #crauser>img{
 width: 100%;
 }
+
+#crauserbutton{
+    position: absolute;
+    top:43%;
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: none;
+}
+#crauserbutton:nth-child(2){
+    position: absolute;
+    left:60px;
+}
+#crauserbutton:nth-child(3){
+    position: absolute;
+    right:60px;
+}
+#catcont{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+#cato{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,220px);
+    gap: 25px;
+    text-align: center;
+    
+
+}
+#cato img{
+    width: 100%;
+    height: 92%;
+}
+#cato p{
+    font-weight: bolder;
+    font: 20px;
+    font-size: 18px;
+    margin: 10px 0px 18px 0px;
+    color:#3E4D60
+}
+
+
+
+.jnow{
+    width: 60%;
+    margin: auto;
+    background-color: #ffdc93;
+    border-radius: 10px;
+}
+.jnow>div{
+    width: 96%;
+    display: flex;
+    
+    justify-content:space-between;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    margin: auto;
+   
+
+}
+.jnow>div>div{
+    background-color: #d11243;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 25px;
+    color: white;
+    
+    
+}
+.jnow>div>img{
+    width: 116.9px;
+    height: 32px;
+    margin-left: 15px;
+
+}
+.jnow>p{
+    padding-bottom: 10px;
+    margin-left: 30px;
+    font: 14px lato;
+}
+
+.ofimg{
+    display: block;
+    margin: auto;
+}
+/* ----------------------------------------------------------------------------------------------- */
+#procon{
+    width: 75%;
+
+margin: auto;
+    
+}
+#prod{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px;
+   
+    
+}
+#prod>div{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+#prod>div>div{
+    width: 90%;
+    margin: auto;
+}
+.mat{
+    width: 100%;
+    border-radius: 10px;
+}
+.marks{
+    display: flex;
+    justify-content: space-between;
+}
+.marks>div{
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80px;
+    height: 30px;
+    background-color:#d11243;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+   
+    }
+  .marks>h2{
+  color: #d11243;
+}
+.bott{
+    display: flex;
+    width:50%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: -5px;
+    margin-top: -5px;
+    
+}
+hr{
+margin-top: -5px;
+border:0.1px dimgray lightslategrey;
+}
+#reward{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffe6ea;
+    margin-top: 30px;
+    
+}
+#reward>div{
+   
+    display: flex;
+}
+#reward img{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#uni{
+    margin-top: 20px;
+    margin-right: 10px;
+    color: #d11243;
+}
+#conti{
+    width: 75%;
+    margin: auto;
+}
+#conti>div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+#conti>div img{
+    width: 100%;
+    height: 80%;
+    ;
+}
+#last{
+    display: block;
+    margin: auto;
+    
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+#pos{
+    position: relative;
+}
+#maincon{
+    width: 75%;
+    margin: auto;
+    
+}
+.swiper{
+    width: 95%;
+  }
+
+.swiper-button-nex{
+    opacity: 0.7;
+    color: white;
+    
+
+  }
+  .swiper-button-prev{
+    opacity: 0.7;
+    color: white;
+    margin-left: 0px;
+}
+  .swiper-button-next:hover, .swiper-button-prev:hover{
+    opacity: 1;
+    color: red;
+
+  }
+
+  #slid img{
+    width: 100%;
+    height: 160px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------------- */
+  #footer>div{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+ }
+  #footer>div>div:nth-child(1){
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  #footer>div>div:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  
     #crauser button{
         position: absolute;
         top:43%;
@@ -176,47 +449,3 @@ width: 100%;
     
     
     
-    .jnow{
-        width: 60%;
-        margin: auto;
-        background-color: #ffdc93;
-        border-radius: 10px;
-    }
-    .jnow>div{
-        width: 96%;
-        display: flex;
-        
-        justify-content:space-between;
-        padding: 15px;
-        border-bottom: 1px solid black;
-        margin: auto;
-       
-    
-    }
-    .jnow>div>div{
-        background-color: red;
-        border-radius: 5px;
-        padding: 10px;
-        margin-right: 25px;
-        
-        
-    }
-    .jnow>div>img{
-        width: 116.9px;
-        height: 32px;
-        margin-left: 15px;
-    
-    }
-    .jnow>p{
-        padding-bottom: 10px;
-        margin-left: 30px;
-        font: 14px lato;
-    }
-    
-    .ofimg{
-        display: block;
-        margin: auto;
-    }
-
-
-
