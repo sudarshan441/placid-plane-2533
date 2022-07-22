@@ -1,6 +1,8 @@
+
 *{
     font-family: sans-serif;
 }
+
 #navcontainer{
     background-color: #EAEAEA;
     height: 30px;
@@ -20,6 +22,7 @@
 }
 #topnav{
     width: 80%;
+
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -31,6 +34,7 @@
 }
 
 #nav{
+
     width: 85%;
     display: flex;
     justify-content: space-between;
@@ -72,6 +76,9 @@ justify-items: center;
     
 }
 
+    
+}
+
 .border>img{
     height: 20px;
     margin-top: 5px;
@@ -89,7 +96,9 @@ margin-top: 1px;
     position: sticky;
     top:0px;
     background-color: white;
+
     z-index: 100;
+
 }
 .align{
     margin-top: 15px;
@@ -136,6 +145,7 @@ margin-top: 1px;
 .texttype{
     font: 12px lato sans-serif;
 }
+
 #cato>div>img{
     transition: transform .3s
 }
@@ -146,9 +156,11 @@ margin-top: 1px;
 
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
 
+
 #crauser>img{
 width: 100%;
 }
+
 #crauserbutton{
     position: absolute;
     top:43%;
@@ -392,3 +404,48 @@ border:0.1px dimgray lightslategrey;
     grid-template-columns: repeat(3,1fr);
   }
   
+    #crauser button{
+        position: absolute;
+        top:43%;
+        font-size: 50px;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        border: none;
+    }
+    #crauser button:nth-child(2){
+        position: absolute;
+        left:60px;
+    }
+    #crauser button:nth-child(3){
+        position: absolute;
+        right:60px;
+    }
+    #catcont{
+        width: 75%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    #cato{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3,220px);
+        gap: 25px;
+        text-align: center;
+        
+    
+    }
+    #cato img{
+        width: 100%;
+        height: 92%;
+    }
+    #cato p{
+        font-weight: bolder;
+        font: 20px;
+        font-size: 18px;
+        margin: 10px 0px 18px 0px;
+        color:#3E4D60
+    }
+    
+    
+    
