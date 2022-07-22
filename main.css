@@ -131,7 +131,7 @@ margin-top: 1px;
 #crauser>img{
 width: 100%;
 }
-    #crauserbutton{
+    #crauser button{
         position: absolute;
         top:43%;
         font-size: 50px;
@@ -140,11 +140,11 @@ width: 100%;
         border-radius: 100%;
         border: none;
     }
-    #crauserbutton:nth-child(2){
+    #crauser button:nth-child(2){
         position: absolute;
         left:60px;
     }
-    #crauserbutton:nth-child(3){
+    #crauser button:nth-child(3){
         position: absolute;
         right:60px;
     }
