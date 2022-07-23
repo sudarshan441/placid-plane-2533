@@ -1,8 +1,11 @@
-
 *{
     font-family: sans-serif;
 }
+a{
 
+
+text-decoration: none;
+}
 #navcontainer{
     background-color: #EAEAEA;
     height: 30px;
@@ -22,7 +25,6 @@
 }
 #topnav{
     width: 80%;
-
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -34,13 +36,11 @@
 }
 
 #nav{
-
     width: 85%;
     display: flex;
     justify-content: space-between;
     justify-items: center;
     margin: auto;
-    
     height: 35px;
     }
 #nav>div>div{
@@ -76,9 +76,6 @@ justify-items: center;
     
 }
 
-    
-}
-
 .border>img{
     height: 20px;
     margin-top: 5px;
@@ -96,9 +93,7 @@ margin-top: 1px;
     position: sticky;
     top:0px;
     background-color: white;
-
     z-index: 100;
-
 }
 .align{
     margin-top: 15px;
@@ -145,7 +140,6 @@ margin-top: 1px;
 .texttype{
     font: 12px lato sans-serif;
 }
-
 #cato>div>img{
     transition: transform .3s
 }
@@ -156,9 +150,9 @@ margin-top: 1px;
 
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
 
-
 #crauser>img{
 width: 100%;
+
 }
 
 #crauserbutton{
@@ -169,15 +163,21 @@ width: 100%;
     height: 60px;
     border-radius: 100%;
     border: none;
+   
+   
+    
 }
 #crauserbutton:nth-child(2){
     position: absolute;
+    
     left:60px;
 }
 #crauserbutton:nth-child(3){
     position: absolute;
     right:60px;
+    
 }
+
 #catcont{
     width: 75%;
     margin: auto;
@@ -189,9 +189,7 @@ width: 100%;
     grid-template-rows: repeat(3,220px);
     gap: 25px;
     text-align: center;
-    
-
-}
+    }
 #cato img{
     width: 100%;
     height: 92%;
@@ -204,8 +202,6 @@ width: 100%;
     color:#3E4D60
 }
 
-
-
 .jnow{
     width: 60%;
     margin: auto;
@@ -215,7 +211,6 @@ width: 100%;
 .jnow>div{
     width: 96%;
     display: flex;
-    
     justify-content:space-between;
     padding: 15px;
     border-bottom: 1px solid black;
@@ -355,6 +350,7 @@ border:0.1px dimgray lightslategrey;
 /* ---------------------------------------------------------------------------------------------------------------------- */
 #pos{
     position: relative;
+    margin-bottom: 10px;
 }
 #maincon{
     width: 75%;
@@ -403,49 +399,72 @@ border:0.1px dimgray lightslategrey;
     display: grid;
     grid-template-columns: repeat(3,1fr);
   }
+  #game{
+    width: 120px;
+    height: 22.33px;
+  }
+  #footer>div>div>div>h3{
+    font-size: 14px;
+  }
+  #loggo{
+    width:120px;
+    height: 44.29;
+    margin-left: 75px;
+  }
+  .midsec{
+    margin-left: -60px;
+  }
+  .midsec2{
+    margin-left: -60px;
+  }
+  .midsec3{
+    margin-left: 10px;
+  }
+  .lpo{
+    display: flex;
+   width: 280px;
+   height: 22px;
+   justify-content: space-between;
+   margin-left: 250px;
+
+  }
+  .lpo>img{
+    width: 22px;
+    height: 22px;;
+  }
+  .lpo>h4{
+margin-top: 2px;
+  }
+  .cities{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    
+  }
+  .cities>a{
+    padding: 5px 20px;
+    border-width: thin;
+    border-right: 0.5px solid gray;
+    
+  }
+  #about{
+    width: 90%;
+    margin: auto;
+  }
+  #disclaim{
+    width: 90%;
+    margin: auto;
+  }
+  #disclaim>div{
+ display: flex;
+ width: 39%;
+ justify-content: space-around;
+ margin: auto;
+  }
+  #disclaim>div>img{
+    margin-top: 20px;
+    width: 18px;
+    height: 18px;
+   
+  }
   
-    #crauser button{
-        position: absolute;
-        top:43%;
-        font-size: 50px;
-        width: 60px;
-        height: 60px;
-        border-radius: 100%;
-        border: none;
-    }
-    #crauser button:nth-child(2){
-        position: absolute;
-        left:60px;
-    }
-    #crauser button:nth-child(3){
-        position: absolute;
-        right:60px;
-    }
-    #catcont{
-        width: 75%;
-        margin: auto;
-        margin-bottom: 40px;
-    }
-    #cato{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(3,220px);
-        gap: 25px;
-        text-align: center;
-        
-    
-    }
-    #cato img{
-        width: 100%;
-        height: 92%;
-    }
-    #cato p{
-        font-weight: bolder;
-        font: 20px;
-        font-size: 18px;
-        margin: 10px 0px 18px 0px;
-        color:#3E4D60
-    }
-    
-    
-    
