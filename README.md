@@ -17,7 +17,7 @@ https://taupe-madeleine-4247ba.netlify.app/
 # Roles and Responsibilities
 
 ##### Homepage : 
-<img width="913" alt="fifty" src="https://imgur.com/a/bkyJ9X8">
+<img width="913" alt="licious" src="https://i.postimg.cc/WbX1dsFT/Screenshot-2022-12-19-155048.png">
 
 
 
